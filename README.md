@@ -16,11 +16,8 @@ https://www.ekidata.jp/ から、駅情報を含むCSVを `files` ディレク�
 
 その後
 
-```rb
-require './journey.rb'
-journey = Journey.new
-
-journey.destiny
+```sh
+$ ruby destiny.rb
 ```
 
-で、次の行き先を決めれます
+で、次の行き先を決められます

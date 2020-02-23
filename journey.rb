@@ -15,7 +15,7 @@ class EkiSampler
   def destiny
     start_station_name = stations.sample['station_name']
     direction = directions.sample
-    puts "あなたは今から#{start_station_name}駅から#{direction}方向に向います!!"
+    "あなたは今から#{start_station_name}駅から#{direction}方向に向います!!"
   end
 
   private
