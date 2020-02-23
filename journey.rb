@@ -1,6 +1,6 @@
 require 'csv'
 
-class EkiSampler
+class Journey
 
   LINE_CDS = [
     11302, # 11302,2,JR山手線,ヤマノテセン,JR山手線,,,,139.73522275686264,35.69302730762992,12,0,11302
